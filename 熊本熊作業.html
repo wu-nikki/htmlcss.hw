@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bear</title>
+  <style>
+    body {
+      background: white;
+
+    }
+
+    .face {
+      width: 800px;
+      height: 800px;
+      border-radius: 50%;
+      /* background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1) 50%); */
+      background-color: black;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .face::before {
+      content: "";
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: rgb(242, 28, 28);
+      position: absolute;
+      transform: translateX(-30%);
+      bottom: 35%;
+    }
+
+
+    .face::after {
+      content: "";
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: rgb(242, 28, 28);
+      position: absolute;
+      left: 80%;
+      bottom: 35%;
+    }
+
+
+    .eyes {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      background-color: white;
+      position: relative;
+      top: 21%;
+      left: 60%;
+
+
+    }
+
+    .eyes::before {
+      content: "";
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    }
+
+    /* .eyes::after {
+      content: "";
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    } */
+
+
+    .eyes2 {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      background-color: white;
+      position: relative;
+      top: 0%;
+      left: 20%;
+    }
+
+    .eyes2::before {
+      content: "";
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    }
+
+    /* 
+    .eyes2::after {
+      content: "";
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: black;
+      position: absolute;
+      top: 15%;
+      left: 15%;
+    } */
+
+    .ears {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: rgb(0, 0, 0);
+      position: relative;
+      top: -40%;
+      left: 7%;
+    }
+
+    .ears::before {
+      content: "";
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: 18%;
+      left: 21%;
+    }
+
+    .ears2 {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      top: 2.5%;
+      left: 77%;
+    }
+
+    .ears2::before {
+      content: "";
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: 18%;
+      left: 21%;
+    }
+
+    .norse {
+      width: 300px;
+      height: 200px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: 40%;
+      left: 31%;
+    }
+
+    .norse::before {
+      content: "";
+      width: 75px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      top: 10%;
+      left: 38%;
+    }
+
+    .norse::after {
+      content: "";
+      width: 180px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      top: 50%;
+      left: 20%;
+    }
+
+    .whiteV {
+      width: 100px;
+      height: 110px;
+      background: white;
+      transform: skew(50deg);
+      position: absolute;
+      top: 75%;
+      left: 37%;
+    }
+
+    .whiteV::after {
+      content: '';
+      width: 100px;
+      height: 110px;
+      background: white;
+      transform: skew(-65deg);
+      position: absolute;
+      top: 0%;
+      left: 120%;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="face">
+    <div class="eyes ">
+    </div>
+    <div class="eyes2">
+    </div>
+    <div class="ears"></div>
+    <div class="ears2"></div>
+    <div class="norse"></div>
+    <div class="whiteV"></div>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
